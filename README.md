@@ -29,8 +29,8 @@ FOR THIS YOU HAVE TO OPEN TWO TERMINALS
 5.) enjoy the forum :)
 
 # VERSIONS # 
-DEPENDENCIES:
-    #FRONTEND#
+DEPENDENCIES:  
+     #FRONTEND#
 ```
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
