@@ -43,7 +43,6 @@ DEPENDENCIES:
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
 ```
-     BACKEND 
 ```
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
