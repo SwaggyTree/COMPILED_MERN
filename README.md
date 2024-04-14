@@ -1,8 +1,11 @@
 
 # GROUP 10 S19 #
 PABLO, LEON MIGUEL V S.
+```
 GUEVARA, EARL CAMILO L.
+```
 GARCIA, RALPH TIMOTHY D.
+```
 
 # PROJECT OVERVIEW #
 TITLE: ANIMO FORUM
@@ -13,10 +16,15 @@ WHOEVER IS READING THE THREAD.
 
 # HOW TO RUN #
 FOR THIS YOU HAVE TO OPEN TWO TERMINALS 
+```
 1.) FOR THE FIRST TERMINAL YOU HAVE TO NAVIGATE TO FOLDER CONTAINING 'BACKEND'
+```
 2.) YOU HAVE TO TYPE IN 'npm run dev'
+```
 3.) AFTER SHOWING IT IS LISTENING TO PORT 4000 YOU GO TO THE SECOND TERMINAL AND NAVIGATE TO THE FRONTEND FOLDER
+```
 4.) YOU TYPE IN 'npm run start'
+```
 5.) enjoy the forum :)
 
 # VERSIONS # 
@@ -29,7 +37,7 @@ DEPENDENCIES:
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-
+```
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "mongoose": "^8.2.1"
