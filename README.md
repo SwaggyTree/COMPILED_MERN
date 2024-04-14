@@ -31,8 +31,7 @@ FOR THIS YOU HAVE TO OPEN TWO TERMINALS
 ```
 
 # VERSIONS # 
-DEPENDENCIES:  
-     FRONTEND 
+DEPENDENCIES:
 ```
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
