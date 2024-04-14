@@ -26,11 +26,13 @@ FOR THIS YOU HAVE TO OPEN TWO TERMINALS
 ```
 4.) YOU TYPE IN 'npm run start'
 ```
+```
 5.) enjoy the forum :)
+```
 
 # VERSIONS # 
 DEPENDENCIES:  
-     #FRONTEND#
+     # FRONTEND #
 ```
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -42,7 +44,7 @@ DEPENDENCIES:
     "web-vitals": "^2.1.4"
 ```
 
-    #BACKEND#
+    # BACKEND #
 ```
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
