@@ -17,9 +17,12 @@ FOR THIS YOU HAVE TO OPEN TWO TERMINALS
 ```
 1.) FOR THE FIRST TERMINAL YOU HAVE TO NAVIGATE TO FOLDER CONTAINING 'BACKEND'
 ```
+```
 2.) YOU HAVE TO TYPE IN 'npm run dev'
 ```
+```
 3.) AFTER SHOWING IT IS LISTENING TO PORT 4000 YOU GO TO THE SECOND TERMINAL AND NAVIGATE TO THE FRONTEND FOLDER
+```
 ```
 4.) YOU TYPE IN 'npm run start'
 ```
@@ -27,6 +30,8 @@ FOR THIS YOU HAVE TO OPEN TWO TERMINALS
 
 # VERSIONS # 
 DEPENDENCIES:
+    #FRONTEND#
+```
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -36,6 +41,10 @@ DEPENDENCIES:
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
 ```
+
+    #BACKEND#
+```
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "mongoose": "^8.2.1"
+```
