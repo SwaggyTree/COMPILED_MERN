@@ -32,7 +32,7 @@ FOR THIS YOU HAVE TO OPEN TWO TERMINALS
 
 # VERSIONS # 
 DEPENDENCIES:  
-     # FRONTEND #
+     FRONTEND 
 ```
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -43,8 +43,7 @@ DEPENDENCIES:
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
 ```
-
-    # BACKEND #
+     BACKEND 
 ```
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
