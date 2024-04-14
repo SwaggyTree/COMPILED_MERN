@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
+.star-logo{
+    width:25px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #fff; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(to right, #105023, #02b461);
+    background-color: #00703C; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background: linear-gradient(to right, #105023, #02b461);
+    color: #ffffff;
+    text-align: center;
+    padding: 2px; 
+    margin-top: auto;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.no-account{
+    text-decoration: none;
+}
+
+.no-account:hover{
+    text-decoration: none;
+}
+
+/*posts*/
+.posts-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 0px 10px 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.1s ease-in-out; 
+}
+
+.post-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-post{
+    content: url("images/meme.jpg");
+    width: 95%;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #cecece;
+    display: block; 
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.post-tag{
+    background-color: #197b36;
+    color:#ffffff;
+    font-size: small;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.post:hover {
+    transform: scale(1.02);
+	box-shadow: 8px 8px 3px #197b36;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.post-header-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.upvote-button,
+.downvote-button,
+.comment-button {
+    background-color: #105023;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.upvote-button {
+    background-image: url('images/upvote.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: left center; 
+    padding-left: 30px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.downvote-button {
+    background-image: url('images/downvote.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: left center; 
+    padding-left: 30px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upvote-button:hover,
+.downvote-button:hover,
+.comment-button:hover {
+    background-color: #0a3015;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px; 
+    padding-left: 30px; 
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.vote-count,
+.comment-count {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.profile-picture{
+    content: url("images/default-pfp.png");
+    width: 30px;
+    padding-right:5px;
+
+}
+
+.posted-by-username{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-link{
+	color: black;
+}
+
+.profile-link:hover{
+	color: seagreen;
+}
+
+
+/* user actions (actions and buttons below the animo forum logo) */
+.user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-actions input[type="text"] {
+    margin: 0 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.user-actions button,
+.user-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.user-actions button:hover,
+.user-actions a:hover {
+    background-color: #0a3015;
+}
+
+.user-actions button:hover,
+.search-button:hover,
+.submit-post:hover {
+    background-color: #0a3015;
+    transform: scale(1.05);
+}
+
+.submit-post, 
+.search-button {
+    background-color: #105023;
+    color: #fff;
+    padding: 5px 10px; 
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.submit-post:hover,
+.search-button:hover {
+    background-color: #0a3015;
+    transition: transform 0.3s; 
+}
+
+/*for login.html and profile.html*/
+.login-container,
+.profile-container {
+	display: flex;
+	flex-direction: column;
+    min-width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);	
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label,
+.profile-container p {
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.login-container button,
+.profile-container button {
+    background-color: #105023;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.login-container button:hover{
+    background-color: #0a3015;
+}
+
+/*profile*/
+.profile-info {
+    text-align: center;
+}
+
+.profile-info img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.profile-info h2 {
+    margin-top: 10px;
+}
+
+.profile-info p {
+    margin-top: 5px;
+}
+
+/* for signup.html*/
+.signup-container {
+    min-width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container label {
+    margin-bottom: 5px;
+}
+
+.signup-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.signup-container button {
+    background-color: #105023;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.signup-container button:hover {
+    background-color: #0a3015;
+}
+
+/*for submit-post.html*/
+.submit-post-container {
+    min-width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.submit-post-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-post-container label {
+    margin-bottom: 5px;
+}
+
+.submit-post-container input,
+.submit-post-container textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.submit-post-container button{
+    background-color: #105023;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.submit-post-container button:hover {
+    background-color: #0a3015;
+}
+
+input[type="file"]::-webkit-file-upload-button{
+    background-color: #105023;
+    color: #fff;
+    padding: 4px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="file"]::-webkit-file-upload-button:hover{
+    background-color: #0a3015;
+}
+
+label, input {
+    display: block;
+  }
+  input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  form button {
+    background: linear-gradient(to right, #105023, #02b461);
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+
+  .post-actions span {
+
+    cursor: pointer;
+    background: #f1f1f1;
+    padding: 6px;
+    border-radius: 50%;
+    color: #333;
+  }
+
+
+
+
+
